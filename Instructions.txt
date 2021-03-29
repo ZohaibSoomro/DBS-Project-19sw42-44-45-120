@@ -1,0 +1,22 @@
+To run the program you should have following things:
+
+1. Oracle database Installed on your machine.
+2. A java ide(e.g Eclipse,Intellij) on which javafx must be installed.
+3. A unlocked Scott Account in Oracle database.
+
+Steps to run properly without errors:
+
+1. First of all you need to configure the build path of project to add the jars(available in "jars" package in the same project)
+	and then apply the changes.
+2. Now goto the class "OracleConnection.java" and modify the password variable(on line#9) 
+	to the password of your 'SCOTT' account also do the same for 	"OracleRelatedTasks.java"(on line#10).
+3. Run the class named "TablesForNewDevice.java".
+4. Run the class named "CreateAttendanceTable.java".
+5. Never repeat step-2 & step-3 again as it will generate errors.
+6. Run class named "AttendanceSystem.java" and do whatever you want with interface of output.
+
+A Project By 
+19SW42 Zohaib
+19SW44 Syed Ahmad
+19SW45  Uzair
+19SW120  Ali Noor
